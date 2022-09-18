@@ -1,4 +1,4 @@
-# Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. Sort your result by ascending employee_id.
+## Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than  per month who have been employees for less than  months. Sort your result by ascending employee_id.
 
 **Input Format**
 
@@ -10,6 +10,7 @@
 **Sample Input**
 ![image](https://user-images.githubusercontent.com/90106232/190917247-22f4fc5c-ac0b-4287-afe2-0fe722ebcf23.png)
 
+# Solution
 ```sql
 select name from employee where salary >2000 and months <10
 ```
